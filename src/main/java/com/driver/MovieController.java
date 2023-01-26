@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+@RequestMapping("movies")
 @RestController
 public class MovieController {
     @Autowired
